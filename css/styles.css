@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+header img {
+    height: 40px;
+    width: auto;
+}
+
+header nav a {
+    padding: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #191923c5;
+}
+
+a:hover {
+    color: #5e5ff5;
+}
+
+.user a {
+    padding: 0 5px;
+}
+.user button {
+    padding: 6px 12px;
+    background-color: #5e5ef5cc;
+    color: white;
+    border: #5e5ff5;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.user button:hover {
+    background-color: #2f2fbb;
+}
+
+
+
+
+
+
