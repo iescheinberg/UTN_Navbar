@@ -66,6 +66,9 @@ a:hover {
     border-radius: 6px;
     padding: 8px 10px;
 }
+.navLogin i {
+    padding: 0 10px;
+}
 
 input::placeholder {
     background-image: url(../assets/img/search.svg);
